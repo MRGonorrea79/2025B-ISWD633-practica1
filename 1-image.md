@@ -79,7 +79,7 @@ docker rmi <nombre imagen>:<tag>
 
 Eliminar la imagen hello-world 
 # COMPLETAR
-docker rmi -f hello-world:latest
+docker rmi hello-world:latest
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
@@ -90,3 +90,4 @@ Es una buena práctica detener y eliminar todos los contenedores que dependan de
 ```
 docker rmi -f <nombre imagen>:<tag>
 ```
+docker rmi -f hello-world:latest
