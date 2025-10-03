@@ -15,13 +15,24 @@ docker pull <nombre imagen>:<tag>
 
 Descargar la imagen **hello-world**
 # COMPLETAR
+docker pull hello-world
 
 **¿Qué es nginx**
 # COMPLETAR 
+NGINX (se pronuncia engine-x) es un servidor web de alto rendimiento que también puede funcionar como:
+
+* Proxy inverso: recibe solicitudes de clientes y las redirige a uno o varios servidores backend.
+* Balanceador de carga: distribuye el tráfico entre varios servidores para mejorar rendimiento y disponibilidad.
+* Proxy de correo (IMAP, POP3, SMTP).
+* Caché HTTP: almacena contenido en caché para reducir la carga en los servidores y acelerar las respuestas.
+
+Fue creado en 2004 por el desarrollador ruso Igor Sysoev y es software libre bajo la licencia BSD de 2 cláusulas.
+
+Hoy en día, NGINX es uno de los servidores web más utilizados en el mundo, tanto para servir directamente contenido estático (imágenes, HTML, CSS, etc.), como para trabajar junto con aplicaciones web (Node.js, Django, Flask, PHP, etc.) y mejorar escalabilidad.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 # COMPLETAR
-
+docker pull nginx:alpine
 ### Listar imágenes
 
 ```
