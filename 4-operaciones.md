@@ -76,7 +76,8 @@ docker exec -it srv-jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 7eca5003800a44fdbe4f86ce7b0a9638 7eca5003800a44fdbe4f86ce7b0a9638
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
 
-![Uploading image.png…]()
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/70c68d52-2bc3-4382-a806-5e38b88d4258" />
+
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
